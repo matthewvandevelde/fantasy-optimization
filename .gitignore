@@ -6,6 +6,33 @@ __pycache__/
 # C extensions
 *.so
 
+# existing stuff …
+__pycache__/
+*.py[cod]
+*$py.class
+…
+pip-delete-this-directory.txt
+
+# --- extra for your setup ---
+# macOS system files
+.DS_Store
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Project outputs (not needed in git, just reproducible)
+outputs/
+
+
 # Distribution / packaging
 .Python
 build/
